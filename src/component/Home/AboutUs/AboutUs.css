@@ -1,0 +1,93 @@
+.about-us {
+  text-align: left;
+}
+.valign {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+}
+.section-header .section-title {
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.section-header .subTitle {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.section-header h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+.about-us p {
+  font-family: "Poppins", sans-serif;
+  color: #a4a7b1;
+  font-weight: 300;
+  line-height: 2;
+}
+.about-us .img {
+  padding-left: 150px;
+  padding-right: 50px;
+  position: relative;
+}
+.about-us .img .status {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  display: flex;
+}
+.about-us .img .status .item {
+  padding: 30px 20px;
+  margin-right: 50px;
+  position: relative;
+  background-color: #272727;
+  color: #fff;
+}
+.about-us .img .status .item:first-of-type {
+  background-color: #fff;
+  color: #000;
+}
+.about-us .img .status .item h4 {
+  font-size: 45px;
+  font-weight: 800;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+.about-us .img .status .item h6 {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 15px;
+  font-weight: 600;
+}
+.about-us .img .status .item h4 span {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: -21px;
+}
+.about-us .img .status .item::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-us .img::before {
+  position: absolute;
+  content: "";
+  top: -50px;
+  right: 0;
+  background-image: url(/public/images/dots.png);
+
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+  opacity: 0.3;
+}

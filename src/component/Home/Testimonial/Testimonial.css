@@ -1,0 +1,30 @@
+.testimonials {
+  background-image: url(/public/images/patrn.svg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.testimonials .content h6 {
+  color: #12c2e9;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.testimonials .content h2 {
+  font-size: 4.5vw;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.testimonials .content h2 .backColor {
+  display: inline-block;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  color: #fff;
+}

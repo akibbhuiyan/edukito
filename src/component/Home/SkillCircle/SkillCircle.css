@@ -1,0 +1,35 @@
+.project-count {
+  background-color: #03cc65;
+  width: 110px;
+  height: 110px;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00000054;
+
+  display: grid;
+  transition: all 200ms linear;
+}
+
+.value {
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  background-color: #111215;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 19px;
+  color: #fff;
+  line-height: 36px;
+}
+.skill-circle .item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: #fff;
+  text-align: start;
+}
+.skill-circle .item .cont span {
+  opacity: 0.9;
+  margin-bottom: 9px;
+  display: block;
+}

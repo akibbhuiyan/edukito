@@ -1,0 +1,40 @@
+.main-nav {
+  min-height: 80px;
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid transparent;
+  z-index: 9;
+}
+.main-nav .navbar-brand {
+  font-size: 27px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: #fff;
+}
+.main-nav .navbar-brand span {
+  transform: rotate(-15deg);
+  display: inline-block;
+  font-size: 33px;
+}
+.main-nav .navbar-nav .nav-link {
+  padding: 15px 7px;
+  margin: 10px 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.main-nav.scrolled {
+  position: fixed;
+  top: -80px;
+  left: 0;
+  right: 0;
+  background: #1b1d21;
+  border-color: #333538;
+  transform: translateY(80px);
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translateY(80px);
+  padding: 0;
+}

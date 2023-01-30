@@ -1,0 +1,25 @@
+.services .item-box {
+  padding: 80px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.services .item-box .icon {
+  font-size: 40px;
+  margin-bottom: 30px;
+  display: block;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
+  background: linear-gradient(to right, #12c2e926, #c471ed1f, #f64f5924);
+  border-radius: 50%;
+  z-index: -1;
+}
+.services .item-box h6 {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}

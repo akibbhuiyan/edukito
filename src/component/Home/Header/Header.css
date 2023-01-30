@@ -1,0 +1,85 @@
+.fixed-slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+}
+.fixed-slider .carousel-item {
+  height: 100vh;
+}
+.fixed-slider .carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: 0;
+  bottom: 0;
+}
+
+.caption h1 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  transition: all 0.4s;
+  transition-delay: 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+.caption p {
+  margin-top: 15px;
+  color: #fff;
+}
+.main-btn {
+  padding: 15px 35px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: inline-block;
+  color: #fff;
+}
+.carusel-img {
+  position: relative;
+}
+.carusel-img::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.38);
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-slider .scoial-icon {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.fixed-slider .scoial-icon a {
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+}
+.fixed-slider .carousel .carousel-control-next,
+.carousel-control-prev {
+  height: 55px;
+  width: 55px !important;
+  top: 50% !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 50%;
+  color: #ccc !important;
+}
+
+.fixed-slider .carousel .carousel-control-next {
+  right: 30px !important;
+}
+.fixed-slider .carousel .carousel-control-prev {
+  left: 30px !important;
+}

@@ -1,0 +1,61 @@
+.work-carusel .item-image {
+  height: 480px;
+  margin-right: 20px;
+}
+.work-carusel .item-image img {
+  height: 100%;
+}
+
+.work-carusel .slick-prev,
+.work-carusel .slick-next {
+  color: #000;
+}
+
+.work-carusel .slick-prev::before,
+.work-carusel .slick-next::before {
+  display: none;
+}
+.work-carusel .slick-prev,
+.work-carusel .slick-next {
+  font-size: 18px;
+  position: absolute;
+  bottom: 9px;
+  display: block;
+  top: unset;
+  color: #fff;
+  padding: 1px;
+  cursor: pointer;
+  border: none;
+  z-index: 1;
+  letter-spacing: 5px;
+}
+.work-carusel .slick-next {
+  right: 40px;
+}
+.work-carusel .slick-prev {
+  left: 14px;
+}
+.work-carusel .slick-prev:hover,
+.work-carusel .slick-prev:focus,
+.work-carusel .slick-next:hover,
+.work-carusel .slick-next:focus {
+  color: #fff;
+}
+.work-carusel .slick-slide .slide .content {
+  position: relative;
+}
+.work-carusel .slick-slide .slide .content .cont {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #111215;
+  padding: 15px 30px;
+  transition: all 0.4s;
+  opacity: 0;
+  visibility: hidden;
+}
+.work-carusel .slick-slide.slick-active .slide .content .cont {
+  opacity: 1;
+  visibility: visible;
+}
